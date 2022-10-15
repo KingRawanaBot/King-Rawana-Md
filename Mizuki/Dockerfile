@@ -1,7 +1,7 @@
 FROM fusuf/whatsasena:latest
 ##Queen Mizuki
-RUN git clone https://github.com/MrJoka-Thejaka/Mizuki-fork-for-new-deployers /root/QueenMizuki
-WORKDIR /root/QueenMizuki/
+RUN git clone https://github.com/KingRawanaBot/King-Rawana-Md /root/kingrawana
+WORKDIR /root/kingrawana/
 ENV TZ=Europe/Istanbul
 RUN yarn add supervisor -g
 RUN yarn install --no-audit
